@@ -4,9 +4,9 @@
 config.fish - systemwide fish config [/etc/fish/config.fish]
 nanorc - nano rc file [/etc/nanorc]
 Xenlism-Arch - grub theme i use (SEE CREDITS)
-.config/ - some app configs
-.icons/ - icons and cursors
-.themes/ - gnome themes
+.config/ - some app configs [~/.config/]
+.icons/ - icons and cursors [~/.icons]
+.themes/ - gnome themes [~/.themes/]
 ```
 
 ### CREDITS
