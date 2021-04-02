@@ -7,6 +7,7 @@ Xenlism-Arch - grub theme i use (SEE CREDITS)
 .config/ - some app configs [~/.config/]
 .icons/ - icons and cursors [~/.icons]
 .themes/ - gnome themes [~/.themes/]
+patch_fish/ - modifies your fish to look better
 ```
 
 ### CREDITS
