@@ -35,6 +35,7 @@ alias edit-reflector-config='/usr/bin/sudo /usr/bin/nano /etc/xdg/reflector/refl
 alias show-reflector-config='/usr/bin/cat /etc/xdg/reflector/reflector.conf'
 
 alias installed-pks='/usr/bin/yay -Q'
+
 # utility commands
 alias add='/usr/bin/yay -S'
 alias nay='/usr/bin/yay -R'
@@ -43,11 +44,13 @@ alias cln='/usr/bin/git clone'
 alias upt='/usr/bin/yay -Syyu && omf update'
 alias cle='/usr/bin/yay -Rsn (/usr/bin/yay -Qdtq)'
 alias cuc='/usr/bin/yay -Scc'
+alias swr='/usr/bin/sudo /usr/bin/swapoff -a; /usr/bin/sudo /usr/bin/swapon -a'
+alias mrf='/usr/bin/sudo /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/yay -Syyu'
 
 alias systype='/usr/bin/file /sbin/init'
 alias back='cd ..'
 
-# custom comands
+# custom comands (people might what to remove these)
 alias glew='/usr/bin/python3.9 /home/ari/ari/coding/python_/glew/glew/__main__.py'
 
 # functions
@@ -58,9 +61,9 @@ function cin
 	gcc $argv -o main -lm
 end
 
-# tools
+# tools (people might what to remove these)
 alias etcher='/usr/bin/chmod +x ari/coding/tools_/etcher-flash/balenaEtcher.AppImage && /usr/bin/sudo ~/ari/coding/tools_/etcher-flash/balenaEtcher.AppImage'
 alias ngrok='/usr/bin/chmod +x ~/ari/coding/tools_/ngrok_/ngrok && ~/ari/coding/tools_/ngrok_/ngrok'
 
-# autorun
+# autorun (people might what to remove these)
 /usr/bin/pfetch
