@@ -1,6 +1,10 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 
+![image](https://user-images.githubusercontent.com/71613062/113639330-70502d80-9668-11eb-97f2-e8f30aa2a7f4.png)
+
+**My version of GNOME is *~500MiB* IDLE**
+
 ### CONTENTS
 ```text
 config.fish - systemwide fish config [/etc/fish/config.fish]
@@ -18,9 +22,26 @@ svcs.arch.sh - enables services to make your computer and packages run smoother
 
 ### packages (arch linux)
 ```shell
-sudo pacman -S fish nano gnome gnome-tweaks
+# OFFICIAL REPOS
+sudo pacman -S fish nano gnome gnome-tweaks chrome-gnome-shell
+# AUR
+yay -S gnome-terminal-transparency nerd-fonts-hack
+
 ```
 
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)
+
+### gnome extensions i use
+[dynamic-panel-transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)<br/>
+[hide-activities-button](https://extensions.gnome.org/extension/1128/hide-activities-button/)<br/>
+[horizontal-workspaces](https://extensions.gnome.org/extension/2141/horizontal-workspaces/)<br/>
+[native-window-placement](https://extensions.gnome.org/extension/18/native-window-placement/)<br/>
+[panel-osd](https://extensions.gnome.org/extension/708/panel-osd/)<br/>
+[shelltile](https://extensions.gnome.org/extension/657/shelltile/)<br/>
+[user-themes](https://extensions.gnome.org/extension/19/user-themes/)<br/>
+[window-is-ready-notification-remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
+
+### etc.
+[wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)
