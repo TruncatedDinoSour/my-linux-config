@@ -16,6 +16,11 @@ gnome_repair.arch/ - fixes common problems i had with my scripts (run them one b
 svcs.arch.sh - enables services to make your computer and packages run smoother
 ```
 
+### packages (arch linux)
+```shell
+sudo pacman -S fish gnome nano
+```
+
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)
