@@ -1,1 +1,1 @@
-sudo pacman -S gnome
+sudo pacman -S --needed gnome
