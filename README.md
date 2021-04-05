@@ -14,4 +14,5 @@ bye_gdm.arch.sh - removes GDM and replaces it with lightdm
 
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)
+
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)
