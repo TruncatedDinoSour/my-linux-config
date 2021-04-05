@@ -12,6 +12,9 @@ do
 sudo pacman -Rsn $(pacman -Qdtq)
 done
 
+# reinstallng xorg
+sudo pacman -S --needed xorg
+
 # installing lightdm
 sudo pacman -S lightdm lightdm-gtk-greeter
 
