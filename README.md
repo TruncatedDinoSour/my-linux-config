@@ -8,6 +8,7 @@ Xenlism-Arch - grub theme i use (SEE CREDITS)
 .icons/ - icons and cursors [~/.icons]
 .themes/ - gnome themes [~/.themes/]
 patch_fish/ - modifies your fish to look better
+clean_gnome.arch.sh - running this file will make your gnome lighter without any unnecessary packages
 ```
 
 ### CREDITS
