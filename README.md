@@ -18,7 +18,7 @@ svcs.arch.sh - enables services to make your computer and packages run smoother
 
 ### packages (arch linux)
 ```shell
-sudo pacman -S fish gnome nano
+sudo pacman -S fish nano gnome gnome-tweaks
 ```
 
 ### CREDITS
