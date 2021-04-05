@@ -1,5 +1,5 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
-##### if anything breaks please make sure to have logs for example what you ran and what was the output
+##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 
 ### CONTENTS
 ```text
