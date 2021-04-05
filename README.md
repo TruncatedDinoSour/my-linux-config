@@ -9,6 +9,7 @@ Xenlism-Arch - grub theme i use (SEE CREDITS)
 .themes/ - gnome themes [~/.themes/]
 patch_fish/ - modifies your fish to look better
 clean_gnome.arch.sh - removes unnecessary packages that come with gnome
+bye_gdm.arch.sh - removes GDM and replaces it with lightdm
 ```
 
 ### CREDITS
