@@ -23,9 +23,9 @@ svcs.arch.sh - enables services to make your computer and packages run smoother
 ### packages (arch linux)
 ```shell
 # OFFICIAL REPOS
-sudo pacman -S fish nano gnome gnome-tweaks chrome-gnome-shell
+sudo pacman -S fish nano gnome gnome-tweaks
 # AUR
-yay -S gnome-terminal-transparency nerd-fonts-hack
+yay -S gnome-terminal-transparency nerd-fonts-hack chrome-gnome-shell
 
 ```
 
