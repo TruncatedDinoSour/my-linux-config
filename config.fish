@@ -46,12 +46,15 @@ alias cle='/usr/bin/yay -Rsn (/usr/bin/yay -Qdtq)'
 alias cuc='/usr/bin/yay -Scc'
 alias swr='/usr/bin/sudo /usr/bin/swapoff -a; /usr/bin/sudo /usr/bin/swapon -a'
 alias mrf='/usr/bin/sudo /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/yay -Syyu'
+alias ers='/usr/bin/echo "" >'
+alias esh='/usr/bin/echo "" > /home/ari/.ssh/known_hosts'
 
 alias systype='/usr/bin/file /sbin/init'
 alias back='cd ..'
 
 # custom comands (people might what to remove these)
 alias glew='/usr/bin/python3.9 /home/ari/ari/coding/python_/glew/glew/__main__.py'
+alias edit-fish-prompt='/usr/bin/nano /home/ari/.config/fish/functions/fish_prompt.fish'
 
 # functions
 function c
