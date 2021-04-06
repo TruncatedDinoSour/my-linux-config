@@ -29,6 +29,13 @@ function fish_prompt
   set -l green (set_color green)
   set -l normal (set_color normal)
 
+  # set the default prompt colour to red,
+  # the the status code was 0 - change it to a different colour
+  set -l prompt_color $red
+  if test $last_status = 0
+    set prompt_color $green
+  end
+
   # ~
   set -l cwd $normal(pwd | sed "s:^$HOME:~:")
 
@@ -40,7 +47,7 @@ function fish_prompt
   end
 
   # Print pwd or full path
-  echo -n -s $cwd $normal
+  echo -n -s $USER ' ' $prompt_color at $normal ' '  $hostname $normal ' ' $prompt_color in $normal ' ' $cwd $normal
 
   # Show git branch and status
   if [ (_git_branch_name) ]
@@ -51,14 +58,7 @@ function fish_prompt
     else
       set git_info '(' $cyan $git_branch $normal ')'
     end
-    echo -n -s ' ~ ' $git_info $normal
-  end
-
-  # set the default prompt colour to red,
-  # the the status code was 0 - change it to a different colour
-  set -l prompt_color $red
-  if test $last_status = 0
-    set prompt_color $green
+    echo -n -s $prompt_color ' ' $normal $git_info $normal
   end
 
   # Terminate with a nice prompt char
