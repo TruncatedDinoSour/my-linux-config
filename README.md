@@ -37,7 +37,7 @@ omf install archlinux
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
-[Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)
+[Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)<br/>
 [Lambda Fish Theme](https://github.com/hasanozgan/theme-lambda/)
 
 ### gnome extensions i use
