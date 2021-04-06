@@ -18,7 +18,7 @@ clean_gnome.arch.sh - removes unnecessary packages that come with gnome
 bye_gdm.arch.sh - removes GDM and replaces it with lightdm
 gnome_repair.arch/ - fixes common problems i had with my scripts (run them one by one and see if they fix your issue, if one worked - don't run the other, reboot after every attempt) 
 svcs.arch.sh - enables services to make your computer and packages run smoother
-fish_prompt.fish - my edited version of learance Fish Theme (~/.config/fish/functions/fish_prompt.fish)
+fish_prompt.fish - my edited version of the clearance fish theme (~/.config/fish/functions/fish_prompt.fish) (SEE CREDITS)
 ```
 
 ### packages (arch linux)
@@ -32,7 +32,7 @@ yay -S gnome-terminal-transparency nerd-fonts-hack chrome-gnome-shell
 
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
-[Bibata Cursors](https://www.gnome-look.org/p/1197198/)
+[Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
 [Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)
 
 ### gnome extensions i use
