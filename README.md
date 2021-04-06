@@ -30,6 +30,9 @@ yay -S gnome-terminal-transparency nerd-fonts-hack chrome-gnome-shell
 
 ```
 
+### CONTRIBUTORS
+[cristian-tentella](https://github.com/cristian-tentella/)
+
 ### CREDITS
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
