@@ -1,7 +1,7 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 
-![](https://user-images.githubusercontent.com/71613062/113763974-db9e0c00-9709-11eb-8fa9-16d6ff612d3b.png)
+![](https://user-images.githubusercontent.com/71613062/113791428-1f593b80-9733-11eb-811d-a885602c1afa.png)
 
 **My version of GNOME is *~500MiB* IDLE**
 
@@ -18,7 +18,7 @@ clean_gnome.arch.sh - removes unnecessary packages that come with gnome
 bye_gdm.arch.sh - removes GDM and replaces it with lightdm
 gnome_repair.arch/ - fixes common problems i had with my scripts (run them one by one and see if they fix your issue, if one worked - don't run the other, reboot after every attempt) 
 svcs.arch.sh - enables services to make your computer and packages run smoother
-fish_prompt.fish - my edited version of the clearance fish theme (~/.config/fish/functions/fish_prompt.fish) (SEE CREDITS)
+fish_prompt.fish - my edited version of clearance and lambda fish themes (~/.config/fish/functions/fish_prompt.fish) (SEE CREDITS)
 ```
 
 ### packages (arch linux)
@@ -38,6 +38,7 @@ omf install archlinux
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
 [Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)
+[Lambda Fish Theme](https://github.com/hasanozgan/theme-lambda/)
 
 ### gnome extensions i use
 [dynamic-panel-transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)<br/>
