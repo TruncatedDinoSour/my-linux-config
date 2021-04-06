@@ -1,7 +1,7 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 
-![](https://user-images.githubusercontent.com/71613062/113665368-e40c2d80-969c-11eb-9894-63bdf8f208e3.png)
+![](https://user-images.githubusercontent.com/71613062/113665744-8af0c980-969d-11eb-87f2-12c5ab8a6fcf.png)
 
 **My version of GNOME is *~500MiB* IDLE**
 
