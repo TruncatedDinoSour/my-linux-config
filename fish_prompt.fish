@@ -6,9 +6,9 @@
 # - Git branch and dirty state (if inside a git repo)
 
 # if user is root set a different prompt
-set prmt '⟩ '
+set prmt '╰⟩ '
 if fish_is_root_user
-	set prmt '# '
+	set prmt '╰# '
 end
 
 function _git_branch_name
@@ -47,7 +47,7 @@ function fish_prompt
   end
 
   # Print pwd or full path
-  echo -n -s $USER ' ' $prompt_color at $normal ' '  $hostname $normal ' ' $prompt_color in $normal ' ' $cwd $normal
+  echo -n -s $prompt_color '╭─ '$normal $USER ' ' $prompt_color at $normal ' '  $hostname $normal ' ' $prompt_color in $normal ' ' $cwd $normal
 
   # Show git branch and status
   if [ (_git_branch_name) ]
