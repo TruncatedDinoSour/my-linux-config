@@ -27,7 +27,8 @@ fish_prompt.fish - my edited version of the clearance fish theme (~/.config/fish
 sudo pacman -S fish nano gnome gnome-tweaks
 # AUR
 yay -S gnome-terminal-transparency nerd-fonts-hack chrome-gnome-shell
-
+# OH MY FISH
+omf install archlinux
 ```
 
 ### CONTRIBUTORS
