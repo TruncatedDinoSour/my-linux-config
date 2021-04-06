@@ -23,12 +23,10 @@ function fish_prompt
   set -l green (set_color green)
   set -l normal (set_color normal)
 
-  set -l cwd $blue(pwd | sed "s:^$HOME:~:")
+  # ~
+  set -l cwd $normal(pwd | sed "s:^$HOME:~:")
 
   # Output the prompt, left to right
-
-  # Add a newline before new prompts
-  # echo -e ''
 
   # Display [venvname] if in a virtualenv
   if set -q VIRTUAL_ENV
@@ -43,16 +41,18 @@ function fish_prompt
     set -l git_branch (_git_branch_name)
 
     if [ (_git_is_dirty) ]
-      set git_info '(' $yellow $git_branch "±" $normal ')'
+      set git_info '(' $red $git_branch " ±" $normal ')'
     else
-      set git_info '(' $green $git_branch $normal ')'
+      set git_info '(' $cyan $git_branch $normal ')'
     end
     echo -n -s ' · ' $git_info $normal
   end
 
+  # set the default prompt colour to red,
+  # the the status code was 0 - change it to a different colour
   set -l prompt_color $red
   if test $last_status = 0
-    set prompt_color $normal
+    set prompt_color $green
   end
 
   # Terminate with a nice prompt char
