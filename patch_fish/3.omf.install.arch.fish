@@ -2,4 +2,4 @@
 
 # installing packages
 omf install archlinux
-omf install lambda
+omf install clearance
