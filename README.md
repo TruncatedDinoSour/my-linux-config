@@ -68,7 +68,7 @@ omf install archlinux
 
 ### gnome extension configs
 ***dynamic pannel transparency***<br/>
-![](https://user-images.githubusercontent.com/71613062/113894757-d8615980-97b7-11eb-8ec9-6acdd9c8c017.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/113896391-68ec6980-97b9-11eb-8c32-e1ed548d354c.png)<br/>
 
 ***just perfection***<br/>
 ![](https://user-images.githubusercontent.com/71613062/113895007-10689c80-97b8-11eb-870e-1ace2bc0e336.png)<br/>
