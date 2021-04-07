@@ -7,13 +7,15 @@
     - user - ~/.config/fish/, root - /root/.config/fish/
   - not all scripts work on all distros, make sure you have the necesarry dependencies and that you're running a distro that can run that script
   - running gnome repair scripts will introduce back the gnome bloat or on final stage it will reinstall gnome - those scripts are for arch/arch-based distros only
-  - not all gnome extensions work on all gnome versions, make an issue if you want to ask for more configs, setings, etc.
-  - to install cursors and themes you will need the gnome-tweaks application
-  - before making a PR check if the script is written in fish or bash, if it's written in fish submir only fixes with fish syntax, if bash - otherwise
-  - to install grub themes you will need grub and you will need to get the official theme fro the website as they have the most updated theme and an install script
+  - not all gnome extensions work on all gnome versions
+  - make an issue if you want to ask for more configs, setings, etc. :D
+  - to install custom cursors and themes you will need the gnome-tweaks application
+  - before making a PR check if the script is written in fish or bash, if it's written in fish submit only things that are written in fish, if bash - otherwise
+  - to install grub themes you will need grub and you will need to get the official theme from the website as they have the most updated theme and an install script
   - don't be scared to make an issue to ask questions:)
-  - not everything will work on every distro and machine, if you're having problems with paths in for exaple `config.fish`, remov ethe parts where it says:
-    - "(people might want to remove these)"
+  - not everything will work on every distro and machine, if you're having problems with paths in for exaple `config.fish`, remove the parts where it says:
+    - "(people might want to remove these)"<br/>
+     *if you're having general issues make an issue on this github repo:)*
 
 ***
 
@@ -55,7 +57,6 @@ omf install archlinux
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
 [Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)<br/>
-
 [Lambda Fish Theme](https://github.com/hasanozgan/theme-lambda/)
 
 ### gnome extensions i use
