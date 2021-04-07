@@ -64,7 +64,6 @@ omf install archlinux
 [dynamic-panel-transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)<br/>
 [native-window-placement](https://extensions.gnome.org/extension/18/native-window-placement/)<br/>
 [fullscreen-hot-corner](https://extensions.gnome.org/extension/1562/fullscreen-hot-corner/)<br/>
-[fullscreen-hot-corner](https://extensions.gnome.org/extension/1562/fullscreen-hot-corner/)<br/>
 [just-perfection](https://extensions.gnome.org/extension/3843/just-perfection/)<br>
 
 ### gnome extension configs
