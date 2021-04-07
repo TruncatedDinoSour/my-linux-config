@@ -54,7 +54,8 @@ alias back='cd ..'
 
 # custom comands (people might what to remove these)
 alias glew='/usr/bin/python3.9 /home/ari/ari/coding/python_/glew/glew/__main__.py'
-alias edit-fish-prompt='/usr/bin/nano /home/ari/.config/fish/functions/fish_prompt.fish'
+alias edit-fish-prompt-user='/usr/bin/nano /home/ari/.config/fish/functions/fish_prompt.fish'
+alias edit-fish-prompt-root='/usr/bin/sudo /usr/bin/nano /root/.config/fish/functions/fish_prompt.fish'
 
 # functions
 function c
