@@ -1,5 +1,20 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
+<br/>
+
+**please note:**
+  - fish has seperate directories for the normal and root user
+    - user - ~/.config/fish/, root - /root/.config/fish/
+  - not all scripts work on all distrosn make sure you have the neccesarry dependencies and that you're ruuning a distro that can run that script
+  - running gnome repair scripts will introduce back the gnome bloat or on final stage it will reinstall gnome - those scripts are for arch only
+  - not all gnome extensions work on all gnome versions, make an issue if you want to ask for more configs, setings, etc.
+  - to install cursors and themes you will need the gnome-tweaks application
+  - before making a PR check if the script is written in fish or bash, if it's written in fish submir only fixes with fish syntax, if bash - otherwise
+  - to install grub themes you will need grub and you will need to get the official theme fro the website as they have the most updated theme and an install script
+  - don't be scared to make an issue to ask questions:)
+  - not everything will work on every distro and machine, if you're having problems with paths in for exaple `config.fish`, remov ethe parts where it says:
+    - "(people might want to reove these)"
+
 
 ![](https://user-images.githubusercontent.com/71613062/113795335-233d8b80-973c-11eb-96f5-33a515f2fa2c.png)
 
@@ -39,6 +54,7 @@ omf install archlinux
 [Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
 [Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)<br/>
+
 [Lambda Fish Theme](https://github.com/hasanozgan/theme-lambda/)
 
 ### gnome extensions i use
