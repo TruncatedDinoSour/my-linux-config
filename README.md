@@ -61,13 +61,18 @@ omf install archlinux
 
 ### gnome extensions i use
 [dynamic-panel-transparency](https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/)<br/>
-[hide-activities-button](https://extensions.gnome.org/extension/1128/hide-activities-button/)<br/>
-[horizontal-workspaces](https://extensions.gnome.org/extension/2141/horizontal-workspaces/)<br/>
 [native-window-placement](https://extensions.gnome.org/extension/18/native-window-placement/)<br/>
-[panel-osd](https://extensions.gnome.org/extension/708/panel-osd/)<br/>
-[shelltile](https://extensions.gnome.org/extension/657/shelltile/)<br/>
-[user-themes](https://extensions.gnome.org/extension/19/user-themes/)<br/>
-[window-is-ready-notification-remover](https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/)
+[fullscreen-hot-corner](https://extensions.gnome.org/extension/1562/fullscreen-hot-corner/)<br/>
+[fullscreen-hot-corner](https://extensions.gnome.org/extension/1562/fullscreen-hot-corner/)<br/>
+[just-perfection](https://extensions.gnome.org/extension/3843/just-perfection/)<br>
+
+### gnome extension configs
+***dynamic pannel transparency***<br/>
+![](https://user-images.githubusercontent.com/71613062/113894757-d8615980-97b7-11eb-8ec9-6acdd9c8c017.png)<br/>
+
+***just perfection***<br/>
+![](https://user-images.githubusercontent.com/71613062/113895007-10689c80-97b8-11eb-870e-1ace2bc0e336.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/113895300-5de50980-97b8-11eb-8fd5-a4b4eb482d6e.png)<br/>
 
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)<br/>
