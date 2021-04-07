@@ -5,8 +5,8 @@
 **please note:**
   - fish has seperate directories for the normal and root user
     - user - ~/.config/fish/, root - /root/.config/fish/
-  - not all scripts work on all distrosn make sure you have the neccesarry dependencies and that you're ruuning a distro that can run that script
-  - running gnome repair scripts will introduce back the gnome bloat or on final stage it will reinstall gnome - those scripts are for arch only
+  - not all scripts work on all distros, make sure you have the necesarry dependencies and that you're running a distro that can run that script
+  - running gnome repair scripts will introduce back the gnome bloat or on final stage it will reinstall gnome - those scripts are for arch/arch-based distros only
   - not all gnome extensions work on all gnome versions, make an issue if you want to ask for more configs, setings, etc.
   - to install cursors and themes you will need the gnome-tweaks application
   - before making a PR check if the script is written in fish or bash, if it's written in fish submir only fixes with fish syntax, if bash - otherwise
