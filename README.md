@@ -71,8 +71,8 @@ omf install archlinux
 ![](https://user-images.githubusercontent.com/71613062/113896391-68ec6980-97b9-11eb-8c32-e1ed548d354c.png)<br/>
 
 ***just perfection***<br/>
-![](https://user-images.githubusercontent.com/71613062/113895007-10689c80-97b8-11eb-870e-1ace2bc0e336.png)<br/>
-![](https://user-images.githubusercontent.com/71613062/113895300-5de50980-97b8-11eb-8fd5-a4b4eb482d6e.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/113897512-78b87d80-97ba-11eb-94b2-e0fb68eb7940.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/113897615-8ff76b00-97ba-11eb-9e35-7a1d33baee61.png)<br/>
 
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)<br/>
