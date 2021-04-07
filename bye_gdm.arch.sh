@@ -6,10 +6,10 @@ sudo systemctl disable gdm
 # removing gdm
 sudo pacman -R gdm
 
-# removing leftovers
+# cleaning up (will run until nothing is found or until 5 times)
 for _ in {1...5}
 do
-sudo pacman -Rsn $(pacman -Qdtq)
+    sudo pacman -Rsn $(pacman -Qdtq)
 done
 
 # reinstallng xorg
