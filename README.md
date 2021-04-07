@@ -19,7 +19,8 @@
 
 ***
 
-![](https://user-images.githubusercontent.com/71613062/113795335-233d8b80-973c-11eb-96f5-33a515f2fa2c.png)
+*(ignore the GNOME 40 bug - black corners)*
+![](https://user-images.githubusercontent.com/71613062/113895838-df3c9c00-97b8-11eb-80b5-0f54ce8982fc.png)
 
 **My version of GNOME is *~500MiB* IDLE**
 
