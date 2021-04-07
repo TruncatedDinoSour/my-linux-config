@@ -13,8 +13,9 @@
   - to install grub themes you will need grub and you will need to get the official theme fro the website as they have the most updated theme and an install script
   - don't be scared to make an issue to ask questions:)
   - not everything will work on every distro and machine, if you're having problems with paths in for exaple `config.fish`, remov ethe parts where it says:
-    - "(people might want to reove these)"
+    - "(people might want to remove these)"
 
+***
 
 ![](https://user-images.githubusercontent.com/71613062/113795335-233d8b80-973c-11eb-96f5-33a515f2fa2c.png)
 
