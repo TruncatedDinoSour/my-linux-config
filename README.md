@@ -1,7 +1,7 @@
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 
-![](https://user-images.githubusercontent.com/71613062/113791428-1f593b80-9733-11eb-811d-a885602c1afa.png)
+![](https://user-images.githubusercontent.com/71613062/113795335-233d8b80-973c-11eb-96f5-33a515f2fa2c.png)
 
 **My version of GNOME is *~500MiB* IDLE**
 
@@ -52,3 +52,4 @@ omf install archlinux
 
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)
+[Just a Touch Fish Theme (fish_config)](https://fishshell.com/docs/current/cmds/fish_config.html)
