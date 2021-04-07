@@ -65,6 +65,7 @@ omf install archlinux
 [native-window-placement](https://extensions.gnome.org/extension/18/native-window-placement/)<br/>
 [fullscreen-hot-corner](https://extensions.gnome.org/extension/1562/fullscreen-hot-corner/)<br/>
 [just-perfection](https://extensions.gnome.org/extension/3843/just-perfection/)<br>
+[tiling-assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 
 ### gnome extension configs
 ***dynamic pannel transparency***<br/>
@@ -73,6 +74,10 @@ omf install archlinux
 ***just perfection***<br/>
 ![](https://user-images.githubusercontent.com/71613062/113897512-78b87d80-97ba-11eb-94b2-e0fb68eb7940.png)<br/>
 ![](https://user-images.githubusercontent.com/71613062/113897615-8ff76b00-97ba-11eb-9e35-7a1d33baee61.png)<br/>
+
+***tiling assistant***<br/>
+![](https://user-images.githubusercontent.com/71613062/113908264-db634680-97c5-11eb-9862-dafb6bea2897.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/113908052-a2c36d00-97c5-11eb-9218-891385d58a1d.png)<br/>
 
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)<br/>
