@@ -14,3 +14,4 @@ cp -r /home/ari/.config/picom/ _.config/
 cp -r /home/ari/.config/rofi/ _.config/
 cp -r /usr/share/rofi/themes/onedark.rasi _.config/rofi/
 cp -r /home/ari/.xinitrc _.xinitrc
+cp -r /home/ari/.config/terminator/ _.config/
