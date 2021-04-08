@@ -1,1 +1,57 @@
-### my i3wm configs
+### MAKE SURE YOU REPLACE /home/ari/ WITH /home/[your-username-here] OR ~/
+***this i3 build is ~350MiB RAM IDLE due to the compositor, extra software and services i have installed***
+<br/>
+
+#### please note:
+  * install all packages needed for this config to work:
+    * i3-gaps
+    * xorg
+    * compton/picom
+    * i3status
+    * i3lock-color (i3lock might also work)
+    * i3blocks
+    * xorg-xinit
+    * rofi
+    * terminator
+    * ttf-font-awesome
+    * lightdm (optional)
+  * edit the configs, the defaults might not work for you
+  * if you face any issue - make an issue on this github repo, make sure to have:
+    * what you ran
+    * what was the error
+    * at what line did the error occur
+    * do you have all dependencies installed
+
+<br/>
+
+![](https://user-images.githubusercontent.com/71613062/114043159-90087100-9875-11eb-8cf5-1773a92f44e7.png)<br/>
+
+## CONTENTS
+```
+_.xinitrc - X11 configuration [~/.xinitrc]
+_.config/ - configuration files
+  |
+  \ i3/ - i3 configuration [~/.config/i3/]
+    \ config - i3 configuration file [~/.config/i3/config]
+  \ i3blocks/ - i3blocks configuration [~/.config/i3blocks/]
+    \ i3blocks.conf - configuration file for i3blocks [~/.config/i3blocks/i3blocks.conf]
+  \ i3status\ - i3 statusbar config [~/.config/i3status/]
+    \ i3status.conf - configuration file for i3 status [~/.config/i3status/i3status.conf]
+  \ picom/ - picom compositor configuration [~/.config/picom/]
+    \ picom.conf - picom configuration file [~/.config/picom/picom.conf]
+  \ rofi/ - rofi app launcher [~/.config/rofi/]
+    \ config - main configuration file [~/.config/rofi/config]
+    \ onedark.rasi - rofi theme file [/usr/share/rofi/themes/onedark.rasi] (SEE CREITS)
+  \ scripts/ - i3 status widgets [~/.config/scripts/]
+    \ [executable files (SEE ETC.)] [~/.config/scripts/...]
+  \ terminator - terminaor terminal config [~/.config/terminator]
+    \ config - main configuration file [~/.config/terminator/config]
+ ```
+ 
+## CREDITS
+[Rofi OneDark Theme](https://github.com/davatorium/rofi-themes/blob/master/User%20Themes/onedark.rasi)<br/>
+[i3 WM Mini Series By EF linux](https://www.youtube.com/playlist?list=PL7UuKajElTaCn3bAVIXAcQPtUhX3NKx4-)<br/>
+ 
+## ETC.
+[i3Blocks - Status Bar Widgets](https://github.com/vivien/i3blocks/)<br/>
+[EF linux i3 configuration file](https://gitlab.com/eflinux/i3)
