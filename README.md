@@ -82,4 +82,5 @@ omf install archlinux
 
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)<br/>
-[Just a Touch Fish Theme (fish_config)](https://fishshell.com/docs/current/cmds/fish_config.html)
+[Just a Touch Fish Theme (fish_config)](https://fishshell.com/docs/current/cmds/fish_config.html)<br/>
+[i3 Page](https://github.com/B00bleaTea/my-linux-config/tree/main/i3)
