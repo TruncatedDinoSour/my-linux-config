@@ -1,6 +1,6 @@
 ### ARCH LINUX INSTALLATION ON UEFI SYSTEMS
 ***
-
+[I know what I'm doing, take me to the comands](https://github.com/B00bleaTea/my-linux-config/blob/main/arch/ARCHINSTALL.sh)<br/>
 **1. Boot into the archiso**<br/>
 - This step is as easy as flashing your USB or an SD card and booting into it, you can flash your devices/cards using [rufus (for windows)](https://rufus.ie/en/) or [etcher (for mac/linux)](https://www.balena.io/etcher/), if they don't work [search up](https://duckduckgo.com/) ***"How do i flash [device] on [system]"***, replace [device] with "an sd card" or "a usb flash drive" depending on what you want to flash and [system] with your current operating system, like "linux", "mac os" or "windows".
   - [Booting into oses on MAC computers](https://www.acronis.com/en-us/articles/usb-boot/)
