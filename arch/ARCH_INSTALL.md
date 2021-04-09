@@ -233,7 +233,7 @@ mkfs.ext4 /dev/SECOND_PARTITION_NAME
 ```
   - if i was installing arch
 ```shell
-kfs.ext4 /dev/nvme0n1p2
+mkfs.ext4 /dev/nvme0n1p2
 ```
   - now let's mount out partitions:
   - first let's mount our root (second) partition
@@ -453,7 +453,7 @@ systemctl enable bluetooth
 **17. adding a new user**
   - creating the user
 ```shell
-useradd -mG whell USERNAME_HERE
+useradd -mG wheel USERNAME_HERE
 ```
   - replace `USERNAME_HERE` with the username you want
   - explenation
