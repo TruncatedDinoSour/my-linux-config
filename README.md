@@ -40,6 +40,7 @@ svcs.arch.sh - enables services to make your computer and packages run smoother
 fish_prompt.fish - my edited version of clearance and lambda fish themes (~/.config/fish/functions/fish_prompt.fish) (SEE CREDITS)
 fish_variables - fish variables [for example colours] (~/.config/fish/fish_variables)
 i3/ - my i3 configuration (more information there)
+arch/ - heplful inforation about arch linux
 ```
 
 ### packages (arch linux)
