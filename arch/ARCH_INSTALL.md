@@ -357,7 +357,7 @@ en_US.UTF-8 UTF-8
 ```shell
 locale-gen
 ```
-  - creating `locale.conf`
+  - creating `/etc/locale.conf`
     - this is where you will define your language
 ```shell
 LANG=[LOCALE]
