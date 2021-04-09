@@ -32,7 +32,7 @@ nano /etc/hosts
 # add
 # 127.0.0.1       localhost
 # ::1             localhost
-# 127.0.1.1	      YOUR-HOST-NAME.localdomain	YOUR-HOST-NAME
+# 127.0.1.1       YOUR-HOST-NAME.localdomain	YOUR-HOST-NAME
 passwd
 pacman -S grub efibootmgr networkmanager network-manager-applet dialog mtools dosfstools base-devel linux-headers bluez bluez-utils cups alsa-utils pulseaudio pulseaudio-bluetooth git reflector xdg-utils xdg-user-dirs
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
