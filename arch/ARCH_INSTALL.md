@@ -386,7 +386,7 @@ echo 'YOUR-HOST-NAME' > /etc/hostname
 ```shell
 127.0.0.1       localhost
 ::1             localhost
-127.0.1.1	      YOUR-HOST-NAME.localdomain	YOUR-HOST-NAME
+127.0.1.1       YOUR-HOST-NAME.localdomain	YOUR-HOST-NAME
 ```
 
 <br/>
