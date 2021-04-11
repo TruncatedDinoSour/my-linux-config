@@ -1,4 +1,5 @@
 [global_config]
+  focus = mouse
   handle_size = 1
   borderless = True
   suppress_multiple_term_dialog = True
@@ -9,11 +10,13 @@
     background_type = transparent
     cursor_shape = underline
     cursor_color = "#aaaaaa"
+    font = Hack Nerd Font Mono 10.5
     show_titlebar = False
     scrollbar_position = hidden
     scroll_on_keystroke = False
     scroll_on_output = True
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    exit_action = hold
+    use_system_font = False
     bold_is_bright = True
 [layouts]
   [[default]]

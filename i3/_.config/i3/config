@@ -31,11 +31,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -355,7 +353,7 @@ set $i3blocks_config_file "/home/ari/.config/i3blocks/i3blocks.conf"
 # colours
 #* bar *#
 # set $bar_bg				#283149
-set $bar_bg				#FFFFFF00
+set $bar_bg			#FFFFFF00
 set $bar_stat			#DCDCDC
 set $bar_sep			#EEEBDD
 
@@ -363,12 +361,13 @@ set $bar_ws_focus		#242C4233
 set $bar_ws_ubg			#CE121233
 
 #* windows *#
-set $window_bg			#404B69
+# #404B69
+set $window_bg			#D1C005
 set $iwindow_bg			#283149
 set $ubg_colour			#E84545
 
-set $txt				#FFFFFF
-set $itxt				#E8EAE6
+set $txt			#FFFFFF
+set $itxt			#E8EAE6
 
 #* i.... = innactive *#
 #* u.... = urgent	 *#
