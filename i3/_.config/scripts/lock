@@ -42,7 +42,7 @@ i3lock \
 --datecolor=$DATE_COLOUR \
 --greetercolor=\#FFFFFF \
 \
---greetertext="Enter The Password To Unlock" \
+--greetertext="" \
 --veriftext="Verifying..." \
 --wrongtext="Wrong Password:(" \
 --noinputtext="No Input" \
