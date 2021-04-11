@@ -24,7 +24,7 @@
 
 <br/>
 
-![](https://user-images.githubusercontent.com/71613062/114043159-90087100-9875-11eb-8cf5-1773a92f44e7.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/114302986-32656600-9abb-11eb-81d6-f8346009b6a3.png)<br/>
 
 ## CONTENTS
 ```
