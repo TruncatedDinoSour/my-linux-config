@@ -13,8 +13,13 @@
 #   ...
 # end
 
+# variables
+set sudo_command "sudo"
+set cli_editor "nano"
+set aur_helper "paru"
+
 # fish commands
-alias edit-fish-aliases='/usr/bin/sudo /usr/bin/nano /etc/fish/config.fish'
+alias edit-fish-aliases='/usr/bin/$sudo_command /usr/bin/$cli_editor /etc/fish/config.fish'
 alias show-fish-aliases='/usr/bin/cat /etc/fish/config.fish | /usr/bin/grep "^alias"'
 alias show-fish-config='/usr/bin/cat /etc/fish/config.fish'
 
@@ -22,30 +27,30 @@ alias show-fish-config='/usr/bin/cat /etc/fish/config.fish'
 alias nanosync-h2r='/usr/bin/sudo /usr/bin/cp ~/.nanorc /etc/nanorc'
 alias nanosync-r2h='/usr/bin/cp /etc/nanorc ~/.nanorc'
 
-alias grub-remake='/usr/bin/sudo /usr/bin/grub-mkconfig -o /boot/grub/grub.cfg'
-alias grub-config='/usr/bin/sudo /usr/bin/nano /etc/default/grub'
+alias grub-remake='/usr/bin/$sudo_command /usr/bin/grub-mkconfig -o /boot/grub/grub.cfg'
+alias grub-config='/usr/bin/$sudo_command /usr/bin/$cli_editor /etc/default/grub'
 alias get-grub-config='/usr/bin/cat /etc/default/grub'
 
-alias edit-graphics-config='/usr/bin/sudo /usr/bin/nano /etc/X11/xorg.conf.d/20-intel.conf'
+alias edit-graphics-config='/usr/bin/$sudo_command /usr/bin/$cli_editor /etc/X11/xorg.conf.d/20-intel.conf'
 alias get-hw-config='/usr/bin/cat /etc/X11/xorg.conf.d/20-intel.conf'
-alias get-gdriver-info='/usr/bin/sudo /usr/bin/lspci -k | /usr/bin/grep -EA3 \'VGA|3D|Display\''
-alias get-hw='/usr/bin/sudo /usr/bin/lspci'
+alias get-gdriver-info='/usr/bin/$sudo_command /usr/bin/lspci -k | /usr/bin/grep -EA3 \'VGA|3D|Display\''
+alias get-hw='/usr/bin/$sudo_command /usr/bin/lspci'
 
-alias edit-reflector-config='/usr/bin/sudo /usr/bin/nano /etc/xdg/reflector/reflector.conf'
+alias edit-reflector-config='/usr/bin/$sudo_command /usr/bin/$cli_editor /etc/xdg/reflector/reflector.conf'
 alias show-reflector-config='/usr/bin/cat /etc/xdg/reflector/reflector.conf'
 
-alias installed-pks='/usr/bin/yay -Q'
+alias installed-pks='/usr/bin/$aur_helper -Q'
 
 # utility commands
-alias add='/usr/bin/yay -S'
-alias nay='/usr/bin/yay -R'
-alias bye='/usr/bin/yay -Rns'
+alias add='/usr/bin/$aur_helper -S'
+alias nay='/usr/bin/$aur_helper -R'
+alias bye='/usr/bin/$aur_helper -Rns'
 alias cln='/usr/bin/git clone'
-alias upt='/usr/bin/yay -Syyu && omf update'
-alias cle='/usr/bin/yay -Rsn (/usr/bin/yay -Qdtq)'
-alias cuc='/usr/bin/yay -Scc'
-alias swr='/usr/bin/sudo /usr/bin/swapoff -a; /usr/bin/sudo /usr/bin/swapon -a'
-alias mrf='/usr/bin/sudo /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/yay -Syyu'
+alias upt='/usr/bin/$aur_helper -Syyu && omf update'
+alias cle='/usr/bin/$aur_helper -Rsn (/usr/bin/$aur_helper -Qdtq)'
+alias cuc='/usr/bin/$aur_helper -Scc && /usr/bin/$sudo_command /usr/bin/pacman -Scc'
+alias swr='/usr/bin/$sudo_command /usr/bin/swapoff -a; /usr/bin/$sudo_command /usr/bin/swapon -a'
+alias mrf='/usr/bin/$sudo_command /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/$aur_helper -Syyu'
 alias ers='/usr/bin/echo "" >'
 alias esh='/usr/bin/echo "" > /home/ari/.ssh/known_hosts'
 
@@ -54,8 +59,12 @@ alias back='cd ..'
 
 # custom comands (people might what to remove these)
 alias glew='/usr/bin/python3.9 /home/ari/ari/coding/python_/glew/glew/__main__.py'
-alias edit-fish-prompt-user='/usr/bin/nano /home/ari/.config/fish/functions/fish_prompt.fish'
-alias edit-fish-prompt-root='/usr/bin/sudo /usr/bin/nano /root/.config/fish/functions/fish_prompt.fish'
+
+alias edit-fish-prompt-user='/usr/bin/$cli_editor /home/ari/.config/fish/functions/fish_prompt.fish'
+alias edit-fish-prompt-root='/usr/bin/$sudo_command /usr/bin/$cli_editor /root/.config/fish/functions/fish_prompt.fish'
+
+alias edit-i3-config='/usr/bin/$cli_editor /home/ari/.config/i3/config'
+alias edit-i3blocks-config='/usr/bin/$cli_editor /home/ari/.config/i3blocks/i3blocks.conf'
 
 # functions
 function c
@@ -66,7 +75,7 @@ function cin
 end
 
 # tools (people might what to remove these)
-alias etcher='/usr/bin/chmod +x ari/coding/tools_/etcher-flash/balenaEtcher.AppImage && /usr/bin/sudo ~/ari/coding/tools_/etcher-flash/balenaEtcher.AppImage'
+alias etcher='/usr/bin/chmod +x ari/coding/tools_/etcher-flash/balenaEtcher.AppImage && /usr/bin/$sudo_command ~/ari/coding/tools_/etcher-flash/balenaEtcher.AppImage'
 alias ngrok='/usr/bin/chmod +x ~/ari/coding/tools_/ngrok_/ngrok && ~/ari/coding/tools_/ngrok_/ngrok'
 
 # autorun (people might what to remove these)
