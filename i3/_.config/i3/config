@@ -393,7 +393,7 @@ set $bar_ws_ubg			#CE121233
 
 #* windows *#
 # #404B69 (window highlighted border)
-set $window_bg				#D1C005
+set $window_bg				#CA810C
 set $iwindow_bg			#283149
 set $ubg_colour			#E84545
 

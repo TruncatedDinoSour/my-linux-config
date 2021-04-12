@@ -4,16 +4,14 @@
 BLUR=6
 INVISIBLE=\#00000000
 
-VERIFICATION_COLOUR=\#0A7CFF
-WRONG_COLOUR=\#ff0a37
+VERIFICATION_COLOUR=\#FABD2F
+WRONG_COLOUR=\#FB4934
 
-KEY_COLOUR=\#5C8DFF
-BACKSPACE_COLOUR=\#429AFF
+KEY_COLOUR=\#FE8019
+BACKSPACE_COLOUR=\#E97501
 
-TIME_COLOUR=\#0A70FF
-DATE_COLOUR=\#0060E6
-
-BAR_COLOUR=\#5C8DFF
+TIME_COLOUR=\#FE7301
+DATE_COLOUR=\#DA6301
 
 
 i3lock \
@@ -23,10 +21,6 @@ i3lock \
 --bar-indicator \
 --no-modkeytext \
 --blur=$BLUR \
-\
---insidecolor=$INVISIBLE \
---insidevercolor=$INVISIBLE \
---insidewrongcolor=$INVISIBLE \
 \
 --verifcolor=$VERIFICATION_COLOUR \
 --wrongcolor=$WRONG_COLOUR \
@@ -42,7 +36,6 @@ i3lock \
 --datecolor=$DATE_COLOUR \
 --greetercolor=\#FFFFFF \
 \
---greetertext="" \
 --veriftext="Verifying..." \
 --wrongtext="Wrong Password:(" \
 --noinputtext="No Input" \
@@ -51,12 +44,15 @@ i3lock \
 \
 --bar-color=$INVISIBLE \
 --bar-count=100 \
---bar-position y+h \
---bar-direction 1 \
---bar-max-height=150 \
+--bar-position=y+h+50 \
+--bar-direction=1 \
+--bar-max-height=170 \
 --bar-step=44 \
 --bar-periodic-step=38 \
 \
 --timesize=60 \
+--verifsize=40 \
+--wrongsize=40 \
 --datesize=17 \
---greetersize=30
+\
+--datestr="%Y, %b %d, %A"
