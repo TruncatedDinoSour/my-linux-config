@@ -24,7 +24,7 @@
 
 <br/>
 
-![](https://user-images.githubusercontent.com/71613062/114302986-32656600-9abb-11eb-81d6-f8346009b6a3.png)<br/>
+![](https://user-images.githubusercontent.com/71613062/114439021-08de3480-9bb8-11eb-834a-67edb4b43b2a.png)
 
 ## CONTENTS
 ```
@@ -54,4 +54,5 @@ _.config/ - configuration files
  
 ## ETC.
 [i3Blocks - Status Bar Widgets](https://github.com/vivien/i3blocks/)<br/>
-[EF linux i3 configuration file](https://gitlab.com/eflinux/i3)
+[EF linux i3 configuration file](https://gitlab.com/eflinux/i3)<br/>
+[wallpaper](https://user-images.githubusercontent.com/71613062/114439076-1a274100-9bb8-11eb-9067-ba66d22f517a.jpg)
