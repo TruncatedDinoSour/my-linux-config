@@ -50,5 +50,8 @@ $sud $cm lightdm.conf /etc/lightdm/lightdm.conf
 echo 'replacing nano config'
 $sub $cm nanorc /etc/nanorc
 
+echo 'replacing the refloctor config'
+$sud $cm reflector.conf /etc/xdg/reflector/reflector.conf
+
 echo 'Done!'
 exit 0

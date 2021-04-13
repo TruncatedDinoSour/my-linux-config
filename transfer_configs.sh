@@ -35,5 +35,6 @@ cp -r /home/ari/.config/scripts i3/_.config
 cp -r /home/ari/.config/terminator i3/_.config
 
 cp /usr/share/rofi/themes/onedark.rasi i3/_.config/rofi
+cp /etc/xdg/reflector/reflector.conf reflector.conf
 
 rm -rf i3/_.config/i3/config.save*
