@@ -58,4 +58,5 @@ _.config/ - configuration files
 [i3Blocks - Status Bar Widgets](https://github.com/vivien/i3blocks/)<br/>
 [EF linux i3 configuration file](https://gitlab.com/eflinux/i3)<br/>
 [Wallpaper](https://user-images.githubusercontent.com/71613062/114439076-1a274100-9bb8-11eb-9067-ba66d22f517a.jpg)<br/>
-[GTK Gruvbox Dark Theme](https://aur.archlinux.org/packages/gruvbox-dark-gtk/)
+[GTK Gruvbox Dark Theme](https://aur.archlinux.org/packages/gruvbox-dark-gtk/)<br/>
+[gruvbox-material-icon-theme-git](https://aur.archlinux.org/packages/gruvbox-material-icon-theme-git/)
