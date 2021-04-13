@@ -14,9 +14,10 @@
 # end
 
 # variables
-set sudo_command "sudo"
-set cli_editor "nano"
-set aur_helper "paru"
+set sudo_command	"sudo"
+set cli_editor		"nano"
+set aur_helper		"paru"
+set username		"ari"
 
 # fish commands
 alias edit-fish-aliases='/usr/bin/$sudo_command /usr/bin/$cli_editor /etc/fish/config.fish'
@@ -52,19 +53,19 @@ alias cuc='/usr/bin/$aur_helper -Scc && /usr/bin/$sudo_command /usr/bin/pacman -
 alias swr='/usr/bin/$sudo_command /usr/bin/swapoff -a; /usr/bin/$sudo_command /usr/bin/swapon -a'
 alias mrf='/usr/bin/$sudo_command /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/$aur_helper -Syyu'
 alias ers='/usr/bin/echo "" >'
-alias esh='/usr/bin/echo "" > /home/ari/.ssh/known_hosts'
+alias esh='/usr/bin/echo "" > /home/$username/.ssh/known_hosts'
 
 alias systype='/usr/bin/file /sbin/init'
 alias back='cd ..'
 
 # custom comands (people might what to remove these)
-alias glew='/usr/bin/python3.9 /home/ari/ari/coding/python_/glew/glew/__main__.py'
+alias glew='/usr/bin/python3.9 /home/$username/$username/coding/python_/glew/glew/__main__.py'
 
-alias edit-fish-prompt-user='/usr/bin/$cli_editor /home/ari/.config/fish/functions/fish_prompt.fish'
+alias edit-fish-prompt-user='/usr/bin/$cli_editor /home/$username/.config/fish/functions/fish_prompt.fish'
 alias edit-fish-prompt-root='/usr/bin/$sudo_command /usr/bin/$cli_editor /root/.config/fish/functions/fish_prompt.fish'
 
-alias edit-i3-config='/usr/bin/$cli_editor /home/ari/.config/i3/config'
-alias edit-i3blocks-config='/usr/bin/$cli_editor /home/ari/.config/i3blocks/i3blocks.conf'
+alias edit-i3-config='/usr/bin/$cli_editor /home/$username/.config/i3/config'
+alias edit-i3blocks-config='/usr/bin/$cli_editor /home/$username/.config/i3blocks/i3blocks.conf'
 
 # functions
 function c
@@ -75,8 +76,8 @@ function cin
 end
 
 # tools (people might what to remove these)
-alias etcher='/usr/bin/chmod +x ari/coding/tools_/etcher-flash/balenaEtcher.AppImage && /usr/bin/$sudo_command ~/ari/coding/tools_/etcher-flash/balenaEtcher.AppImage'
-alias ngrok='/usr/bin/chmod +x ~/ari/coding/tools_/ngrok_/ngrok && ~/ari/coding/tools_/ngrok_/ngrok'
+alias etcher='/usr/bin/chmod +x $username/coding/tools_/etcher-flash/balenaEtcher.AppImage && /usr/bin/$sudo_command ~/$username/coding/tools_/etcher-flash/balenaEtcher.AppImage'
+alias ngrok='/usr/bin/chmod +x /home/username/$username/coding/tools_/ngrok_/ngrok && /home/$username/$username/coding/tools_/ngrok_/ngrok'
 
 # autorun (people might what to remove these)
 /usr/bin/pfetch

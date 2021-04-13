@@ -339,12 +339,13 @@ mode "$mode_gaps_left" {
 
 
 # full path to your wallpaper
-set $wallpaper "/home/ari/Pictures/wallpaper.jpg"
+set $wallpaper "/home/ari/Pictures/wallpaper.jpg'
 
-
-# the screen locking tool you use
+# apps
+#* the screen locking tool you use *#
 set $screen_locker "/home/ari/.config/scripts/lock"
-
+#* set the screenshoting tool *#
+set $screenshot_app "/usr/bin/ksnip"
 
 # browser vars
 #* firefox *#
@@ -365,7 +366,7 @@ set $social_2 "TelegramDesktop"
 # school
 #* zoom *#
 set $school_1 "zoom"
-#* teams (seems to be broken?) *#
+#* teams *#
 set $school_2 "Microsoft Teams - Preview"
 
 # vm_managers
@@ -462,7 +463,7 @@ for_window [class=$social_2] move to workspace $ws4
 
 #* school *#
 for_window [class=$school_1] move to workspace $ws5
-for_window [class=$school_1] move to workspace $ws5
+for_window [class=$school_2] move to workspace $ws5
 
 #* vm managers *#
 for_window [class=$VM_mgr_1] move to workspace $ws6
@@ -478,10 +479,6 @@ client.focused				$window_bg	$window_bg	$txt	$window_bg
 client.unfocused			$iwindow_bg	$iwindow_bg	$itxt	$iwindow_bg
 client.focused_inactive	$iwindow_bg	$iwindow_bg	$itxt	$iwindow_bg
 client.urgent				$ubg_colour	$ubg_colour	$txt	$ubg_colour
-
-
-# display wallpaper
-exec_always feh --bg-fill $wallpaper
 
 
 # execute compositor
@@ -511,3 +508,12 @@ set $editor "terminator -e nano"
 
 bindsym $mod+control+w exec $browser
 bindsym $mod+control+e exec $editor
+bindsym Print exec $screenshot_app
+
+
+# set our wallpaper
+exec_always feh --bg-fill $wallpaper
+
+# auto locking
+exec_always xautolock -time 10 -locker $screen_locker
+

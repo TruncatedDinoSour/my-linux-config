@@ -17,7 +17,6 @@
     scroll_on_keystroke = False
     scroll_on_output = True
     disable_mousewheel_zoom = True
-    exit_action = hold
     use_system_font = False
     bold_is_bright = True
 [layouts]
