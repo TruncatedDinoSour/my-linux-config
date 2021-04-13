@@ -28,7 +28,9 @@
 
 ## CONTENTS
 ```
-_.xinitrc - X11 configuration [~/.xinitrc]
+_.xinitrc - xinit configuration [~/.xinitrc]
+packages.arch.sh - installs needed and extra packages for i3 [NULL]
+transfer.configs.sh - transfer configuration files to their proper directories [NULL]
 _.config/ - configuration files
   |
   \ i3/ - i3 configuration [~/.config/i3/]
