@@ -59,7 +59,7 @@ omf install archlinux
 [cristian-tentella](https://github.com/cristian-tentella/)
 
 ### CREDITS
-[Xenlism Grub Theme](https://www.gnome-look.org/p/1440862/)<br/>
+[Distro Grub Theme](https://store.kde.org/p/1482847/)<br/>
 [Bibata Cursors](https://www.gnome-look.org/p/1197198/)<br/>
 [Clearance Fish Theme](https://github.com/oh-my-fish/theme-clearance/)<br/>
 [Lambda Fish Theme](https://github.com/hasanozgan/theme-lambda/)
