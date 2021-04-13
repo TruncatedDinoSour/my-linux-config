@@ -486,7 +486,7 @@ exec_always picom
 
 
 # set our display resolution and rate
-exec_always xrandr --output $display_name --mode 1920x1080 --rate 40.06
+# exec_always xrandr --output $display_name --mode 1920x1080 --rate 40.06
 
 
 # fibonachi layout
