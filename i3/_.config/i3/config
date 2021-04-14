@@ -350,6 +350,8 @@ set $screenshot_app "/usr/bin/ksnip"
 # browser vars
 #* firefox *#
 set $browser_class "firefox"
+#* tor *#
+set $browser1_class "Tor Browser"
 
 # programming vars
 #* vscode *#
@@ -389,7 +391,7 @@ set $bar_bg					#FFFFFF00
 set $bar_stat				#DCDCDC
 set $bar_sep				#EEEBDD
 
-set $bar_ws_focus			#242C4233
+set $bar_ws_focus			#73737333
 set $bar_ws_ubg			#CE121233
 
 #* windows *#
@@ -452,6 +454,7 @@ bindsym $mod+x exec $screen_locker
 # move windows to workspaces
 #* browser *#
 for_window [class=$browser_class] move to workspace $ws2
+for_window [class=$browser1_class] move to workspace $ws2
 
 #* programming *#
 for_window [class=$programming_1] move to workspace $ws3
