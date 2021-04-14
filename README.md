@@ -2,7 +2,7 @@
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 <br/>
 
-I'm mostly on [i3](https://github.com/B00bleaTea/my-linux-config/tree/main/i3) now
+### I'm mostly on [i3](https://github.com/B00bleaTea/my-linux-config/tree/main/i3) now
 
 **please note:**
   - fish has seperate directories for the normal and root user
