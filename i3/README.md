@@ -48,6 +48,8 @@ _.config/ - configuration files
     \ [executable files (SEE ETC.)] [~/.config/scripts/...]
   \ terminator - terminaor terminal config [~/.config/terminator]
     \ config - main configuration file [~/.config/terminator/config]
+  \ Thunas
+    \ rhunar file manager config
  ```
  
 ## CREDITS
