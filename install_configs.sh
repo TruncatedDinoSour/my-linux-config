@@ -33,6 +33,7 @@ rm -rfv ~/.config/picom
 rm -rfv ~/.config/rofi
 rm -rfv ~/.config/scripts
 rm -rfv ~/.config/terminator
+rm -rfv ~/.config/Thunar
 
 if [ $cm == "mv" ];
 then
@@ -54,4 +55,3 @@ echo 'replacing the refloctor config'
 $sud $cm reflector.conf /etc/xdg/reflector/reflector.conf
 
 echo 'Done!'
-exit 0

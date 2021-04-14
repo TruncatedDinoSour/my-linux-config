@@ -33,6 +33,7 @@ cp -r /home/ari/.config/picom i3/_.config
 cp -r /home/ari/.config/rofi i3/_.config
 cp -r /home/ari/.config/scripts i3/_.config
 cp -r /home/ari/.config/terminator i3/_.config
+cp -r /home/ari/.config/Thunar i3/_.config
 
 cp /usr/share/rofi/themes/onedark.rasi i3/_.config/rofi
 cp /etc/xdg/reflector/reflector.conf reflector.conf
