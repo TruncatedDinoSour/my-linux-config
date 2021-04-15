@@ -14,8 +14,19 @@
     * **OPTIONAL DEPS**
       * lightdm
       * htop
-      * compton/picom
+      * picom
       * ttf-font-awesome
+      * pfech
+      * fish
+      * oh-my-fish
+      * autotiling-git
+      * alsa
+       * alsa-utils
+      * thunar
+      * feh
+      * gvfs
+      * fuse2
+      * fuse3 
   * edit the configs, the defaults might not work for you
   * if you face any issue - make an issue on this github repo, make sure to have:
     * what you ran
