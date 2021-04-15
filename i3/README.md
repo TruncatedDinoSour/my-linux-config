@@ -23,7 +23,7 @@
 
 <br/>
 
-![](https://user-images.githubusercontent.com/71613062/114949767-37bb0b80-9e41-11eb-8a03-8e9fb11f933c.png)
+![](https://user-images.githubusercontent.com/71613062/114950746-3db1ec00-9e43-11eb-866a-d7242d0acab7.png)
 
 ## CONTENTS
 ```
