@@ -10,7 +10,7 @@ $aur_helper_install python3 python-pip
 
 echo 'installing important packages'
 sleep 2
-$aur_helper_install i3-gaps xorg i3status i3lock-color i3blocks xorg-xinit rofi terminator thunar
+$aur_helper_install i3-gaps xorg i3lock-color i3blocks xorg-xinit rofi terminator thunar
 
 
 echo 'installing extra packages'
