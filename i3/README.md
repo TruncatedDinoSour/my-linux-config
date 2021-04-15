@@ -57,7 +57,7 @@ _.config/ - configuration files
 [i3 WM Mini Series By EF linux](https://www.youtube.com/playlist?list=PL7UuKajElTaCn3bAVIXAcQPtUhX3NKx4-)<br/>
  
 ## ETC.
-[i3Blocks - Status Bar Widgets](https://github.com/vivien/i3blocks/)<br/>
+[i3Blocks - Status Bar Widgets](https://github.com/vivien/i3blocks-contrib/)<br/>
 [EF linux i3 configuration file](https://gitlab.com/eflinux/i3)<br/>
 [Wallpaper](https://user-images.githubusercontent.com/71613062/114439076-1a274100-9bb8-11eb-9067-ba66d22f517a.jpg)<br/>
 [GTK Gruvbox Dark Theme](https://aur.archlinux.org/packages/gruvbox-dark-gtk/)<br/>
