@@ -49,7 +49,7 @@ _.config/ - configuration files
     \ config - i3 configuration file [~/.config/i3/config]
   \ i3blocks/ - i3blocks configuration [~/.config/i3blocks/]
     \ i3blocks.conf - configuration file for i3blocks [~/.config/i3blocks/i3blocks.conf]
-  \ i3status\ - i3 statusbar config [~/.config/i3status/]
+  \ i3status/ - i3 statusbar config [~/.config/i3status/]
     \ i3status.conf - configuration file for i3 status [~/.config/i3status/i3status.conf]
   \ picom/ - picom compositor configuration [~/.config/picom/]
     \ picom.conf - picom configuration file [~/.config/picom/picom.conf]
@@ -58,11 +58,11 @@ _.config/ - configuration files
     \ onedark.rasi - rofi theme file [/usr/share/rofi/themes/onedark.rasi] (SEE CREITS)
   \ scripts/ - i3 status widgets [~/.config/scripts/]
     \ [executable files (SEE ETC.)] [~/.config/scripts/...]
-  \ terminator - terminaor terminal config [~/.config/terminator]
+  \ terminator/ - terminaor terminal config [~/.config/terminator]
     \ config - main configuration file [~/.config/terminator/config]
-  \ Thunar
-    \ rhunar file manager config
-  \ htop - htop config
+  \ Thunar/
+    \ thunar file manager config
+  \ htop/ - htop config
     \ htoprc - main configuration file for htop
  ```
  
