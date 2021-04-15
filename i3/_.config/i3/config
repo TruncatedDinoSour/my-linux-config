@@ -134,7 +134,7 @@ set $ws3 "3|"
 set $ws4 "4|"
 set $ws5 "5|"
 set $ws6 "6|"
-set $ws7 "7"
+set $ws7 "7|"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
@@ -371,6 +371,10 @@ set $school_1 "zoom"
 #* teams *#
 set $school_2 "Microsoft Teams - Preview"
 
+# office
+#* libreoffice fresh *#
+set $office1 "libreoffice"
+
 # vm_managers
 #* virtualbox *#
 set $VM_mgr_1 "VirtualBox Manager"
@@ -467,6 +471,9 @@ for_window [class=$social_2] move to workspace $ws4
 #* school *#
 for_window [class=$school_1] move to workspace $ws5
 for_window [class=$school_2] move to workspace $ws5
+
+#* office *#
+for_window [class=$office1] move to workspace $ws7
 
 #* vm managers *#
 for_window [class=$VM_mgr_1] move to workspace $ws6
