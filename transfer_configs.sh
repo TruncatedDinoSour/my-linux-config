@@ -28,7 +28,8 @@ cp /etc/lightdm/lightdm.conf lightdm.conf
 cp /home/ari/.xinitrc i3/_.xinitrc
 cp -r /home/ari/.config/i3 i3/_.config
 cp -r /home/ari/.config/i3blocks i3/_.config
-cp -r /home/ari/.config/i3status i3/_.config
+# no need for i3status when we have i3blocks
+# cp -r /home/ari/.config/i3status i3/_.config
 cp -r /home/ari/.config/picom i3/_.config
 cp -r /home/ari/.config/rofi i3/_.config
 cp -r /home/ari/.config/scripts i3/_.config
