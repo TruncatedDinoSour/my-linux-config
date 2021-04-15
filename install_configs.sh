@@ -38,10 +38,10 @@ rm -rfv ~/.config/Thunar
 if [ $cm == "mv" ];
 then
 	echo 'moving configs to the ~/.config folder'
-	$cm i3/_.config/* ~/.config
+	$cm -fv i3/_.config/* ~/.config
 else
 	echo 'copying configs to the ~/.config folder'
-	$cm -r i3/_.config/* ~/.config
+	$cm -rfv i3/_.config/* ~/.config
 fi
 
 echo 'replacing fish config'
