@@ -1,5 +1,5 @@
 ### MAKE SURE YOU REPLACE /home/ari/ WITH /home/[your-username-here] OR ~/
-***this i3 build is ~350MiB RAM IDLE due to the compositor, extra software and services i have installed***
+***this i3 build is ~300MiB RAM IDLE due to the compositor, extra software and services i have installed***
 <br/>
 
 #### please note:
