@@ -431,6 +431,7 @@ bar {
 		# enable transperacy
 		i3bar_command i3bar --transparency
 		tray_output none
+		separator_symbol "⟩"
 		
 		colors {
            background $bar_bg
