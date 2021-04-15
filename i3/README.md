@@ -25,8 +25,8 @@
       * thunar
       * feh
       * gvfs
-      * fuse2
-      * fuse3 
+      * fuse2 & fuse3
+      * gtk2 & gtk3
   * edit the configs, the defaults might not work for you
   * if you face any issue - make an issue on this github repo, make sure to have:
     * what you ran
