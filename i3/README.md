@@ -6,14 +6,16 @@
   * install all packages needed for this config to work:
     * i3-gaps
     * xorg
-    * compton/picom
     * i3lock-color
     * i3blocks
     * xorg-xinit
     * rofi
     * terminator
-    * ttf-font-awesome
-    * lightdm (optional)
+    * **OPTIONAL DEPS**
+      * lightdm
+      * htop
+      * compton/picom
+      * ttf-font-awesome
   * edit the configs, the defaults might not work for you
   * if you face any issue - make an issue on this github repo, make sure to have:
     * what you ran
@@ -49,6 +51,8 @@ _.config/ - configuration files
     \ config - main configuration file [~/.config/terminator/config]
   \ Thunar
     \ rhunar file manager config
+  \ htop - htop config
+    \ htoprc - main configuration file for htop
  ```
  
 ## CREDITS
