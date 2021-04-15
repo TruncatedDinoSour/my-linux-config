@@ -21,7 +21,7 @@
       * oh-my-fish
       * autotiling-git
       * alsa
-       * alsa-utils
+        * alsa-utils
       * thunar
       * feh
       * gvfs
