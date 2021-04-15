@@ -7,8 +7,7 @@
     * i3-gaps
     * xorg
     * compton/picom
-    * i3status
-    * i3lock-color (i3lock might also work)
+    * i3lock-color
     * i3blocks
     * xorg-xinit
     * rofi
@@ -24,7 +23,7 @@
 
 <br/>
 
-![](https://user-images.githubusercontent.com/71613062/114439021-08de3480-9bb8-11eb-834a-67edb4b43b2a.png)
+![](https://user-images.githubusercontent.com/71613062/114949767-37bb0b80-9e41-11eb-8a03-8e9fb11f933c.png)
 
 ## CONTENTS
 ```
