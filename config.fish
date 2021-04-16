@@ -42,6 +42,9 @@ alias show-reflector-config='/usr/bin/cat /etc/xdg/reflector/reflector.conf'
 
 alias installed-pks='/usr/bin/$aur_helper -Q'
 
+alias ssh-enable="/usr/bin/sudo /usr/bin/systemctl enable sshd.service && /usr/bin/sudo /usr/bin/systemctl start sshd.service"
+alias ssh-disable="/usr/bin/sudo /usr/bin/systemctl stop sshd.service && /usr/bin/sudo /usr/bin/systemctl disable sshd.service"
+
 # utility commands
 alias add='/usr/bin/$aur_helper -S'
 alias nay='/usr/bin/$aur_helper -R'
