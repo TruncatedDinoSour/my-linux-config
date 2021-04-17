@@ -1,2 +1,0 @@
-io.write("> ")
-io.read()
