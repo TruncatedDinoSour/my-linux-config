@@ -481,7 +481,7 @@ for_window [class=$VM_mgr_1] move to workspace $ws6
 
 
 # remove window decorations
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1.39
 
 
 # windows
