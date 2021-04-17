@@ -1,1 +1,0 @@
-x<-readline(prompt = "> ")
