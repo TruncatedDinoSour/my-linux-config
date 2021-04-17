@@ -57,6 +57,7 @@ alias swr='/usr/bin/$sudo_command /usr/bin/swapoff -a; /usr/bin/$sudo_command /u
 alias mrf='/usr/bin/$sudo_command /usr/bin/reflector --age 10 --latest 50 --sort rate --save /etc/pacman.d/mirrorlist && /usr/bin/$aur_helper -Syyu'
 alias ers='/usr/bin/echo "" >'
 alias esh='/usr/bin/echo "" > /home/$username/.ssh/known_hosts'
+alias fld='/usr/bin/find / 2>/dev/null | /usr/bin/grep -i'
 
 alias systype='/usr/bin/file /sbin/init'
 alias back='cd ..'
