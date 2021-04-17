@@ -1,0 +1,2 @@
+dim x
+x = InputBox("> ")
