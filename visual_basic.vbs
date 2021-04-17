@@ -1,2 +1,0 @@
-dim x
-x = InputBox("> ")
