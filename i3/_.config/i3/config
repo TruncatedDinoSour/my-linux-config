@@ -412,7 +412,7 @@ set $itxt					#E8EAE6
 
 
 # display vars
-set $display_name "eDP1"
+# set $display_name "eDP1"
 
 
 # FLOATING WINDOWS
@@ -426,7 +426,8 @@ bar {
 		# uncomment the line below for access to i3status instead of i3blocks
       # status_command i3status -c $i3status_config_file
 		position top
-		font pango: sans 11
+		font pango:sans 11
+		# font pango:Source Code Pro Medium 11.6
 
 		# enable transperacy
 		i3bar_command i3bar --transparency
