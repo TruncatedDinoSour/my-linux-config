@@ -17,8 +17,6 @@ rm -rf patch_fish/
 rm -rf README.md
 rm -rf svcs.arch.sh
 rm -rf _.themes.zip
-rm -rf Xenlism-Arch/
-rm -rf i3/*
 
 cp /etc/fish/config.fish config.fish
 cp /home/ari/.config/fish/functions/fish_prompt.fish fish_prompt.fish
