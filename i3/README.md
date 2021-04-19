@@ -36,7 +36,7 @@
 
 <br/>
 
-![](https://user-images.githubusercontent.com/71613062/114950746-3db1ec00-9e43-11eb-866a-d7242d0acab7.png)
+![](https://user-images.githubusercontent.com/71613062/115310673-bbd10400-a15d-11eb-9d3e-bbabd0ca3b5d.png)
 
 ## CONTENTS
 ```
