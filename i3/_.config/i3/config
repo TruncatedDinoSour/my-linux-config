@@ -345,7 +345,7 @@ set $wallpaper "/home/ari/Pictures/wallpaper.jpg'
 #* the screen locking tool you use *#
 set $screen_locker "/home/ari/.config/scripts/lock"
 #* set the screenshoting tool *#
-set $screenshot_app "/usr/bin/ksnip"
+# set $screenshot_app ""
 
 # browser vars
 #* firefox *#
@@ -519,7 +519,7 @@ set $editor "terminator -e nano"
 
 bindsym $mod+control+w exec $browser
 bindsym $mod+control+e exec $editor
-bindsym Print exec $screenshot_app
+# bindsym Print exec $screenshot_app
 
 
 # set our wallpaper
