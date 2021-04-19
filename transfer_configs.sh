@@ -18,6 +18,7 @@ rm -rf README.md
 rm -rf svcs.arch.sh
 rm -rf _.themes.zip
 rm -rf Xenlism-Arch/
+rm -rf i3/*
 
 cp /etc/fish/config.fish config.fish
 cp /home/ari/.config/fish/functions/fish_prompt.fish fish_prompt.fish
@@ -36,8 +37,9 @@ cp -r /home/ari/.config/scripts i3/_.config
 cp -r /home/ari/.config/terminator i3/_.config
 cp -r /home/ari/.config/Thunar i3/_.config
 cp -r /home/ari/.config/htop/ i3/_.config
+cp -r /home/ari/.config/polybar i3/_.config
 
-cp /usr/share/rofi/themes/onedark.rasi i3/_.config/rofi
-cp /etc/xdg/reflector/reflector.conf reflector.conf
+cp -r /usr/share/rofi/themes/gruvbox-dark-soft.rasi i3/_.config/rofi
+cp -r /etc/xdg/reflector/reflector.conf reflector.conf
 
-rm -rf i3/_.config/i3/config.save*
+rm -rf i3/_.config/i3/config.*

@@ -70,6 +70,7 @@ alias edit-fish-prompt-root='/usr/bin/$sudo_command /usr/bin/$cli_editor /root/.
 
 alias edit-i3-config='/usr/bin/$cli_editor /home/$username/.config/i3/config'
 alias edit-i3blocks-config='/usr/bin/$cli_editor /home/$username/.config/i3blocks/i3blocks.conf'
+alias edit-poly-config='/usr/bin/$cli_editor /home/$username/.config/polybar/config'
 
 # functions
 function c

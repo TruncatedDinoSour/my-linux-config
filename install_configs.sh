@@ -34,6 +34,7 @@ rm -rfv ~/.config/rofi
 rm -rfv ~/.config/scripts
 rm -rfv ~/.config/terminator
 rm -rfv ~/.config/Thunar
+rm -rfv ~/.config/polybar
 
 if [ $cm == "mv" ];
 then
@@ -43,6 +44,10 @@ else
 	echo 'copying configs to the ~/.config folder'
 	$cm -rfv i3/_.config/* ~/.config
 fi
+
+echo 'making needed files executable'
+$sud chmod +x ~/.config/scripts/*
+$sud chmod +x ~/.config/polybar/scripts/*
 
 echo 'replacing fish config'
 $sud $cm config.fish /etc/fish/config.fish
