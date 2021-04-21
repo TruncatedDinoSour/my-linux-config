@@ -1,3 +1,6 @@
+# see the cleaned version, i don't think i will update this repo anymore:
+# [dotfiles-cleaned](https://github.com/B00bleaTea/dotfiles-cleaned)
+
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 ***
