@@ -36,8 +36,10 @@ cp -r /home/ari/.config/terminator i3/_.config
 cp -r /home/ari/.config/Thunar i3/_.config
 cp -r /home/ari/.config/htop/ i3/_.config
 cp -r /home/ari/.config/polybar i3/_.config
+cp -r /home/ari/.vimrc vimrc
 
 cp -r /usr/share/rofi/themes/gruvbox-dark-soft.rasi i3/_.config/rofi
 cp -r /etc/xdg/reflector/reflector.conf reflector.conf
 
 rm -rf i3/_.config/i3/config.*
+

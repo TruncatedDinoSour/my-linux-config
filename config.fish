@@ -15,7 +15,7 @@
 
 # variables
 set sudo_command	"sudo"
-set cli_editor		"nano"
+set cli_editor		"vim"
 set aur_helper		"paru"
 set username		"ari"
 
@@ -45,6 +45,9 @@ alias installed-pks='/usr/bin/$aur_helper -Q'
 alias ssh-enable="/usr/bin/sudo /usr/bin/systemctl enable sshd.service && /usr/bin/sudo /usr/bin/systemctl start sshd.service"
 alias ssh-disable="/usr/bin/sudo /usr/bin/systemctl stop sshd.service && /usr/bin/sudo /usr/bin/systemctl disable sshd.service"
 
+alias edit-vim-config="/usr/bin/sudo /usr/bin/$cli_editor /etc/vimrc"
+alias vimsync="/usr/bin/cp /etc/vimrc ~/.vimrc"
+
 # utility commands
 alias add='/usr/bin/$aur_helper -S'
 alias nay='/usr/bin/$aur_helper -R'
@@ -61,6 +64,10 @@ alias fld='/usr/bin/find / 2>/dev/null | /usr/bin/grep -i'
 
 alias systype='/usr/bin/file /sbin/init'
 alias back='cd ..'
+
+# command remapping
+alias ls="/usr/bin/lsd"
+alias cat="/usr/bin/bat"
 
 # custom comands (people might what to remove these)
 alias glew='/usr/bin/python3.9 /home/$username/$username/coding/python_/glew/glew/__main__.py'

@@ -1,8 +1,23 @@
 #!/usr/bin/env python3
 # <span font='FontAwesome'>\uf128</span>
-import i3ipc
+import requests
 
-i3 = i3ipc.Connection()
-focused = i3.get_tree().find_focused()
 
-print(f"<span>focused = {focused.__dict__}</span>")
+def connected() -> bool:
+    try:
+        requests.get("https://google.com/")
+        return True
+    except requests.exceptions.ConnectionError:
+        return False
+
+
+def pango(text: any, attrs: (dict, None) = None) -> str:
+    attrs = {} if attrs is None else attrs
+    tmp = '<span'
+    for attr in attrs.keys():
+        tmp += f" {attr}=\"{attrs[attr]}\""
+    tmp += f">{text}</span>"
+    return tmp
+
+
+print(pango(connected(), {"color": "#00ff00"}))
