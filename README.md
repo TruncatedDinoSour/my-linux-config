@@ -1,10 +1,10 @@
 # see the cleaned version, i don't think i will update this repo anymore:
-# [dotfiles-cleaned](https://github.com/B00bleaTea/dotfiles-cleaned)
+# [dotfiles-cleaned](https://github.com/TruncatedDinosour/dotfiles-cleaned)
 
 ### make sure you replace /home/ari/ with /home/your-username-here/ or ~/
 ##### if anything breaks please make sure to have logs, for example what you ran and what was the output
 ***
-### I'm mostly on [i3](https://github.com/B00bleaTea/my-linux-config/tree/main/i3) now
+### I'm mostly on [i3](https://github.com/TruncatedDinosour/my-linux-config/tree/main/i3) now
 
 **please note:**
   - fish has seperate directories for the normal and root user
@@ -93,4 +93,4 @@ omf install archlinux
 ### etc.
 [wallpaper](https://user-images.githubusercontent.com/71613062/113638855-5bbf6580-9667-11eb-992d-5d13080b92ae.jpg)<br/>
 [Just a Touch Fish Theme (fish_config)](https://fishshell.com/docs/current/cmds/fish_config.html)<br/>
-[i3 Page](https://github.com/B00bleaTea/my-linux-config/tree/main/i3)
+[i3 Page](https://github.com/TruncatedDinosour/my-linux-config/tree/main/i3)
