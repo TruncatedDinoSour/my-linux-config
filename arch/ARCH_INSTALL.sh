@@ -25,7 +25,7 @@ hwclock --systohc
 nano /etc/locale.gen
 # uncomment your locale
 locale-gen
-/etc/locale.conf
+nano /etc/locale.conf
 # add LANG=[LOCALE]
 echo 'YOUR-HOST-NAME' > /etc/hostname
 nano /etc/hosts
