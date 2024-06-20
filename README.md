@@ -1,3 +1,4 @@
+# This repository has been migrated to the self-hosted ari-web Forgejo instance: <https://git.ari.lt/ari/my-linux-config>
 # see the cleaned version, i don't think i will update this repo anymore:
 # [dotfiles-cleaned](https://github.com/TruncatedDinosour/dotfiles-cleaned)
 
